@@ -1,16 +1,9 @@
 # case_2_5_listview_recommended
 
-A new Flutter project.
+Рекомендуемое задание:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Создать класс User (пользователь) с полями Name (имя) типа String и Phone (номер телефона) типа String.
+Создать массив объектов типа User, инициализировать его демонстрационными данными (именами и телефонами).
+Создать виджет для отображения элемента списка (по аналогии с MyItemList из примера), принимающий в конструкторе и отображающий имя и телефон пользователя.
+Создать виджет с состоянием (StatefullWidget). В методе build с помощью метода ListView.builder отобразить элементы списка (объекты из созданного массива пользователей).
+Сделать элементы списка кликабельными.
